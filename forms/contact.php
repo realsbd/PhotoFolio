@@ -1,6 +1,6 @@
 <?php
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'info@crystalimageprroduction.com';
+  $receiving_email_address = 'info@crystalimageproduction.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -20,7 +20,7 @@
 
   $contact->smtp = array(
     'host' => 'mail.zoho.com',
-    'username' => 'info@crystalimageprroduction.com',
+    'username' => 'info@crystalimageproduction.com',
     'password' => 'pass',
     'port' => '587'
   );
